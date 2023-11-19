@@ -37,7 +37,7 @@ export default function Books() {
             <h2>{book.title}</h2>
             <p>{book.desc}</p>
             <button className="delete" onClick={() => handleDelete(book.id)}> Delete </button>
-            <button className="update"> Update </button>
+            <button className="update"> <Link to={`/update/${book.id}`}> Update </Link> </button>
           </div>
         ))}
       </div>
