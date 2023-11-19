@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Add from './components/Add';
 import Books from './components/Books';
 import Update from './components/Update';
+import "./style.scss"
 
 function App() {
   return (
